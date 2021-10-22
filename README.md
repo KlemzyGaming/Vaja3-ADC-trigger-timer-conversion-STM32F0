@@ -14,3 +14,7 @@ V razdelku TIM1, pod Counter Settings, bi radi časovniku spremenili frekvenco n
 
 Branje vrednosti želimo prikazati z utripanjem zelene LED diode na STM32f0 ploščici. Uporabite metodo TogglePin iz HAL knjižnice in zapišite ukaz: (pomagajte si z vajo 0a).
 HAL_GPIO_TogglePin(GPIOD, GPIO_Pin_12);
+
+
+Komentar:
+Naloga ne deluje pravilno ker je verjetno napaka v kodi ali pa na pinih.
